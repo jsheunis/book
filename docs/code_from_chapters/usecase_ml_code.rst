@@ -134,11 +134,23 @@ Soon it will become clear why this is a useful feature.
 Here, we add a comic as a little `Easter egg <https://imgs.xkcd.com/comics/fuck_grapefruit.png>`_ into the dataset::
 
    datalad download-url -m "add motivational comic to my dataset"  \
-      -O .easteregg  \
+      -O .easteregg.png  \
       https://imgs.xkcd.com/comics/fuck_grapefruit.png
-   # open the comic
-   xdg-open .easteregg
+	  
+After download, we can open the comic.
 
+.. windowsworkarounds:: Windows does not have xdg-open
+
+   ``xdg-open`` is a very useful unix command that opens up any file with its associated default tool.
+   In the command snippet below, on a Unix OS, this command would open up the ``.png`` file with the standard image viewer.
+   Unfortunately, this command does not exist on Windows.
+   An alternative is Window's ``start`` command: ``start .easteregg.png``.
+   
+.. code-block:: bash
+   
+   # open the comic, Windows users may need to use "start"
+   xdg-open .easteregg.png	  
+   
 The very first chapter of the handbook, :ref:`chapter_datasets` will show you even more details about version controlling files in datasets.
 
 
@@ -170,7 +182,7 @@ If the origin of a file (such as a web source) is known, you can drop file *cont
 This, too, works for files saved with :command:`datalad download-url`::
 
    cd ../myanalysis
-   datalad drop .easteregg
+   datalad drop .easteregg.png
 
 but DataLad will refuse to drop files that it doesn't know how to reobtain unless you use ``--nocheck``::
 
@@ -178,15 +190,15 @@ but DataLad will refuse to drop files that it doesn't know how to reobtain unles
 
 Afterward dropping files, only "metadata" about file content and file availability stays behind, and you can't open the file anymore::
 
-   xdg-open .easteregg    # its gone :(!
+   xdg-open .easteregg.png    # its gone :(!
 
 But because the origin of the file is known, it can be reobtained using the :command:`datalad get`::
 
-   datalad get .easteregg
+   datalad get .easteregg.png
 
 Opening the comic works again, afterwards::
 
-   xdg-open .easteregg
+   xdg-open .easteregg.png
 
 This mechanism gives you access to data without the necessity to store all of the data locally.
 As long as there is one location that data is available from (a dataset on a shared cluster, a web source, cloud storage, a USB-stick, ...) and this source is known, there is no need for storing data when it is not in use.

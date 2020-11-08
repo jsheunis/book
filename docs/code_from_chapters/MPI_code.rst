@@ -107,10 +107,22 @@ If you add a file from a websource into your dataset, you can use the command ``
 Here, we add a comic as a little `Easter egg <https://imgs.xkcd.com/comics/fuck_grapefruit.png>`_ into the dataset::
 
    datalad download-url -m "add motivational comic to my dataset"  \
-      -O .easteregg  \
+      -O .easteregg.png  \
       https://imgs.xkcd.com/comics/fuck_grapefruit.png
-   # open the comic
-   xdg-open .easteregg
+	  
+After download, we can open the comic.
+
+.. windowsworkarounds:: Windows does not have xdg-open
+
+   ``xdg-open`` is a very useful unix command that opens up any file with its associated default tool.
+   In the command snippet below, on a Unix OS, this command would open up the ``.png`` file with the standard image viewer.
+   Unfortunately, this command does not exist on Windows.
+   An alternative is Window's ``start`` command: ``start .easteregg.png``.
+   
+.. code-block:: bash
+   
+   # open the comic, Windows users may need to use "start"
+   xdg-open .easteregg.png
 
 The very first chapter of the handbook, :ref:`chapter_datasets` will show you even more details about version controlling files in datasets.
 
@@ -120,19 +132,19 @@ Data transport
 DataLad datasets can track where files came from.
 If the origin of a file (such as a web source) is known, you can drop file *content* to free up disk space::
 
-   datalad drop .easteregg
+   datalad drop .easteregg.png
 
 Afterwards, only "metadata" about file content and file availability stays behind, and you can't open the file anymore::
 
-   xdg-open .easteregg    # its gone :(!
+   xdg-open .easteregg.png    # its gone :(!
 
 But because the origin of the file is known, it can be reobtained using the :command:`datalad get`::
 
-   datalad get .easteregg
+   datalad get .easteregg.png
 
 Opening the comic works again, afterwards::
 
-   xdg-open .easteregg
+   xdg-open .easteregg.png
 
 Let's now see this in action  with really large data, and use the :command:`datalad clone` command to get a neuroimaging dataset published by a group of MPI researchers.
 First, let's go one directory up::
