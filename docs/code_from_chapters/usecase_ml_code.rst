@@ -300,6 +300,11 @@ Then, give the command you would execute to datalad run, in this case ``python c
 Datalad will take the command, run it, and save all of the changes in the dataset that this leads this to under the commit message specified with the -m option.
 Thus, it associates the script (or any command execution) with the results it generates.
 But the command can become even more helpful.
+
+.. note::
+
+   Running this script requires that you have Python installed and available in the terminal that you are using, and that the Python packages ``pandas``, ``seaborn``, and ``sklearn`` are installed.
+   
 Below, we also specify the input data the command needs - DataLad will make sure to :command:`get` the data beforehand.
 And we also specify the output of the command.
 This is not in order to identify outputs (DataLad would do that on its own), but to specify files that should be :command:`unlock`\ed and potentially updated if the command is reran -- but more on this later.
