@@ -161,6 +161,12 @@ Glossary
       more about git in `this (free) book <https://git-scm.com/book/en/v2>`_
       or `these interactive Git tutorials <https://try.github.io/>`_ on :term:`GitHub`.
 
+   Git bash
+      Windows-related. On the Windows operating system, installing :term:`Git` comes with a terminal called "Git Bash".
+      This terminal is in many aspects superior to standard Windows shells and the Anaconda prompt for Windows.
+      Among its features are better :term:`tab completion`, a `searchable command history <https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps>`_, and support for multi-line commands.
+	  You can find your Git Bash by searching for it in your Search Toolbar, or by right-clicking anywhere on your Desktop or Explorer and selecting "Git Bash here".
+
    git-annex
       A distributed file synchronization system, enabling sharing and synchronizing collections
       of large files. It allows managing files with :term:`Git`, without checking the file content into Git.
