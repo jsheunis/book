@@ -165,7 +165,7 @@ Glossary
       Windows-related. On the Windows operating system, installing :term:`Git` comes with a terminal called "Git Bash".
       This terminal is in many aspects superior to standard Windows shells and the Anaconda prompt for Windows.
       Among its features are better :term:`tab completion`, a `searchable command history <https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps>`_, and support for multi-line commands.
-	  You can find your Git Bash by searching for it in your Search Toolbar, or by right-clicking anywhere on your Desktop or Explorer and selecting "Git Bash here".
+      You can find your Git Bash by searching for it in your Search Toolbar, or by right-clicking anywhere on your Desktop or Explorer and selecting "Git Bash here".
 
    git-annex
       A distributed file synchronization system, enabling sharing and synchronizing collections
