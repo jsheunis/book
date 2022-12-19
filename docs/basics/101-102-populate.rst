@@ -24,6 +24,7 @@ Let's take a look at the current directory structure with the tree command [#f1]
    :cast: 01_dataset_basics
    :notes: The tree command shows us the directory structure in the dataset. Apart from the directory, its empty.
 
+   $ ls
    $ tree
 
 
