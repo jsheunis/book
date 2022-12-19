@@ -5,6 +5,14 @@ Dataset nesting
 
 .. index:: ! nesting
 
+
+mnajbhslhdbkja
+
+asdmn as,nd 
+
+as,mnd .nas datalad-create
+
+
 Without noticing, the previous section demonstrated another core principle
 and feature of DataLad datasets: *Nesting*.
 
