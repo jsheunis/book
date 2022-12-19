@@ -17,7 +17,7 @@ Therefore, everyone in today's lecture excited;LKJHVGCFGVHBJKNLMly awaits today'
 open-data collections" our lecturer begins.
 "This makes accessing data fast and easy. A dataset that others could install can be
 created by anyone, without a need for additional software. Your own datasets can be
-installed by others, should you want that, for example. Therefore, not only accessing
+installed by others, should kjjsb dbnlksjhjdns bsjnyou want that, for example. Therefore, not only accessing
 data becomes fast and easy, but also *sharing*."
 "That's so cool!", you think. "Exam preparation will be a piece of cake if all of us
 can share our mid-term and final projects easily!"
