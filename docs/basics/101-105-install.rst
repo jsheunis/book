@@ -11,7 +11,7 @@ workflow to create and populate a dataset from scratch.
 
 But we've been told that with DataLad we could very easily get vast amounts of data to our
 computer. Rumor has it that this would be only a single command in the terminal!
-Therefore, everyone in today's lecture excitedly awaits today's topic: Installing datasets.
+Therefore, everyone in today's lecture excited;LKJHVGCFGVHBJKNLMly awaits today's topic: Installing datasets.
 
 "With DataLad, users can install *clones* of existing DataLad datasets from paths, URLs, or
 open-data collections" our lecturer begins.
