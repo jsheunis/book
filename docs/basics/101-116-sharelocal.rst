@@ -7,7 +7,7 @@ Only now, several weeks into the DataLad-101 course does your room
 mate realize that he has enrolled in the course as well, but has not
 yet attended at all. "Oh man, can you help me catch up?" he asks
 you one day. "Sharing just your notes would be really cool for a
-start already!"
+start already!"asdfsbgdhfmjgfdsfadf
 
 "Sure thing", you say, and decide that it's probably best if he gets
 all of the ``DataLad-101`` course dataset. Sharing datasets was
