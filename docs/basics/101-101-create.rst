@@ -8,6 +8,9 @@ In order to follow along and organize course content, let us create
 a directory on our computer to collate the materials, assignments, and
 notes in.SDCSKJSHSNSAKJBNXASXAS
 
+
+asdfasdfasdfasdf
+
 Since this is ``DataLad-101``, let's do it as a :term:`DataLad dataset`.
 You might associate the term "dataset" with a large spreadsheet containing
 variables and data.

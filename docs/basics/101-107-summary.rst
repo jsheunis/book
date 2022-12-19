@@ -20,7 +20,7 @@ and making simple modifications *locally*.
   to specify a concise commit message to summarize the change. If several unrelated modifications
   exist in your dataset, specify the path to the precise file (change) that should be saved to history.
   Remember, if you run a :command:`datalad save` without
-  specifying a path, all untracked files and all file changes will be committed to the history together!
+  specifying a path, all untracked files and aasdasdasdasdasdasdasdasdasll file changes will be committed to the history together!
   This is the command structure::
 
     datalad save -m "here is a commit message" [PATH]
