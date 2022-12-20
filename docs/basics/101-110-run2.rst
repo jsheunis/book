@@ -43,6 +43,7 @@ in the hidden paths
    :cast: 02_reproducible_execution
 
    $ ls recordings/longnow/.datalad/feed_metadata/*jpg
+   $ ls recordings/longnow/.datalad/feed_metadata/
 
 For the slides you decide to prepare images of size 400x400 px, but
 the logos' original size is much larger (both are 3000x3000 pixel). Therefore

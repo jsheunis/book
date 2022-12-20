@@ -22,7 +22,7 @@ sharing a dataset with a simple example.
   small metadata about its availability attached to it. The original
   ``DataLad-101`` dataset used the ``text2git`` configuration template
   to store text files such as ``notes.txt`` and ``code/list_titles.sh``
-  in Git -- these files' content is therefore available right after
+  in Git -- these files' consasdasdasdasdasdasdasdsatent is therefore available right after
   installation.
 
 * Annexed content can be retrieved via :command:`datalad get` from the
